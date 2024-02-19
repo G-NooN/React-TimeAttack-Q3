@@ -34,8 +34,6 @@ const DropdownMenu = ({ items }) => {
 
 const Dropdown = ({ items }) => {
   return (
-    // REVIEW: DropdownProvider로 감싸는 이유?
-    // DropdownContext를 import했기 때문에 사용하지 않아도 되지 않나?
     <DropdownProvider>
       <div>
         <DropdownButton />
